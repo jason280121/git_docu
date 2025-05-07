@@ -1,0 +1,109 @@
+
+
+帳號: jason58.tsou@gmail.com
+id: jason280121
+
+pd : En20070316
+
+
+#建立初始化git 資料夾
+#git init
+
+#查看設定值
+#git config --list
+
+
+#完整寫法 二個底線--
+#設定電子郵件
+#git config --global user.email jason58.tsou@gmail.com
+
+#設定名字
+#git config --global user.name jason280121
+
+
+
+#檔案加入暫存區(綠色)，單個檔案寫檔名.副檔名
+#git add jason.txt
+
+#資料夾所有紅色加入
+#git add .
+
+#儲存庫  ''空字串 -m(message)
+# git commit -m ""
+# git commit -m 20250427
+# git commit -m "20250427 my first file"
+
+#查看上傳紀錄
+#git log
+
+#重設專案 git init
+#重開PyCharm
+
+
+#13:42 git回復
+# git log --oneline
+
+#看到所有,參照紀錄
+#git reflog
+
+
+#硬回復
+# git reset *** --hard
+
+#軟回復
+#git reset *** --soft
+
+#一般回復
+#git reset ***
+
+
+#檢查
+#git status
+
+
+
+#連線
+# git remote add origin https://github.com/jason280121/0427.git
+
+
+#查詢
+#git remote
+
+#把專案推上去 , origin連線, master(分支)
+# git push origin master
+
+
+
+#15:08
+#push 上傳(上)
+
+#pull 下載(拉)
+#有專案時要用pull
+#git pull origin master
+
+
+#沒有專案時用clone(下載老師檔案)
+#git clone 下載網址
+
+
+
+#新建專案，重新連線
+#git remote add origin https://github.com/jason280121/python-crawler.git
+
+
+# 上傳到github
+#git push origin master
+
+
+#15:53s
+# pip install matplotlib
+
+
+
+
+
+
+
+
+
+

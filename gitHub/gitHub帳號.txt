@@ -1,0 +1,101 @@
+
+
+帳號: jason58.tsou@gmail.com
+
+
+
+密碼: En280121
+
+
+匯入套件:
+
+pip install requests 
+
+
+pip install selenium 
+
+
+pip install BeautifulSoup4
+
+
+# widows + r
+#cmd
+
+查詢git 版本
+#git -v
+# (git version 2.49.0.windows.1)
+
+
+建立資料夾:
+#桌面路徑
+# C:\Users\jason58.tsou\
+#mkdir 0427
+#cd 0427
+
+
+
+初始化git  .git
+#建立初始化git 資料夾
+#git init
+
+
+# 備註說明:
+#.git 版本隱藏檔，不能刪除
+
+
+#查看設定值
+#git config --list
+
+
+#完整寫法 二個底線--
+#設定電子郵件
+#git config --global user.email jason58.tsou@gmail.com
+
+
+#設定名字
+#git config --global user.name jason280121
+
+
+
+
+#實際流程 11:59
+#查詢狀態(紅色，本地端)
+#git status
+#Untracked files 未追縱檔案，還在存本地端檔案 ，新增
+
+#檔案加入暫存區(綠色)，單個檔案寫檔名.副檔名
+#git add jason.txt
+
+#資料夾所有紅色加入
+#git add .
+
+#儲存庫  ''空字串 -m(message)
+# git commit -m ""
+# git commit -m 20250427
+# git commit -m "20250427 my first file"
+
+#查看上傳紀錄
+#git log
+
+#重設專案 git init
+#重開PyCharm
+
+
+
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
